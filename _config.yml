@@ -1,0 +1,49 @@
+# Welcome to Jekyll!
+#
+
+# Site Settings
+title: Curriculum Vitae - CV - e-Commerce / Senior Java / e-Commerce Architect / Enterprise Architect / Team Leader, CTO / CIO. Located in Klagenfurt, Austria.
+url: 'https://www.naschenweng.info/cv'
+domain: 'naschenweng.info'
+baseurl: '/cv' #change it according to your repository name
+description: Curriculum Vitae - CV - e-Commerce / Senior Java / J2EE / Websphere Architect / Enterprise Architect / Team Leader, CTO / CIO, Austria / Österreich / Kärnten / Klagenfurt, Germany / Deutschland -- available for hire
+
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Tracker
+analytics: UA-55061128-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
