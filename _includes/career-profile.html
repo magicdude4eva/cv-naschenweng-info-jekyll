@@ -1,0 +1,72 @@
+{% assign career-profile = site.data.data.career-profile %}
+{% assign seo = site.data.data.sidebar.seo %}
+{% assign achievements = site.data.data.achievements %}
+{% assign references = site.data.data.references %}
+{% if career-profile %}
+
+{% if career-profile.tagline %}
+<section class="section summary-section" style="margin-bottom: 30px;">
+  <div class="summary">
+    <i class="fa fa-quote-right"></i><span style="padding-left:5px;font-family: Georgia, serif;font-size: 120%;font-style: italic;line-height: 24px;">{{career-profile.tagline}}<br></span>
+
+  {% if seo && seo.keywords %}<span style="font-size: 1pt; color: #ffffff">{{seo.keywords }}</span>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ career-profile.title }}
+  </h2>
+
+  <div class="summary">
+    {{ career-profile.summary | markdownify }}
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}
+
+{% if achievements %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fas fa-award"></i> Recent Achievements</h2>
+  <div class="item">
+    <ul>
+    {% for achievement in achievements %}
+      <li>{{ achievement.content }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if references %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fas fa-quote-right"></i> References</h2>
+
+  {% for reference in references %}
+  <div class="item">
+    <div class="meta">
+        <div class="upper-row">
+            <h3 class="job-title"><b>{{ reference.company}}</b></h3>
+            <div class="time">{{ reference.time }}</div>
+        </div>
+    </div>
+    <div class="details">
+      <blockquote {% cycle 'class="blockquote-reverse"', '' %}>
+        <p align="justify">{{ reference.details }}</p>
+        {% if reference.link %}
+        <footer>by <a href="{{ reference.link }}" title="Reference by {{ reference.by }}">{{ reference.by }}</a></footer>
+        {% else %}
+        <footer>by {{ reference.by }}</footer>
+        {% endif %}
+      </blockquote>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

@@ -1,0 +1,37 @@
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
+
+  <div class="skillset">
+    <div class="intro">
+      <p>Skill-levels are rated on a percentage scale: 100%=Expert, 80%=Advanced, 60%=Thorough, 40%=Working understanding, 20%=Limited understanding:</p>
+  </div>
+    {% for skill_category in skills.categories %}
+    <h4 style="padding-top:10px">{{ skill_category.name }}</h4>
+      {% for skill_topic in skill_category.topics %}
+      <div class="item">
+        {% if skill_topic.link %}
+        <h5 class="level-title" style="font-size:smaller"><a title="{{ skill_topic.name }}" href="{{ skill_topic.link }}">{{ skill_topic.name }}</a></h5>
+        {% else %}
+        <h5 class="level-title" style="font-size:smaller">{{ skill_topic.name }}</h5>
+        {% endif %}
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill_topic.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}

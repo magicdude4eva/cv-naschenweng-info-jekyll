@@ -1,0 +1,14 @@
+{% assign hireme = site.data.data.hireme %}
+{% if hireme %}
+  {% if site.data.data.sidebar.hireme %}
+  <div class="hireme-container container-block">
+
+    <h2 class="container-block-title">Hire Me</h2>
+    <ul class="list-unstyled contact-list">
+      <li><b>Current location:</b><br>{{ hireme.currentlocation }}</li>
+      <li><b>Current engagement:</b><br>{{ hireme.currentengagement }}</li>
+  </ul>    
+  </div><!--//hireme-container-->
+  <hr style="margin-top:0px;margin-bottom:5px;border-top: 1px solid darkgray;width:90%">
+  {% endif %}
+{% endif %}

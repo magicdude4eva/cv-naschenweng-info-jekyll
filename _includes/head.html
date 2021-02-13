@@ -1,0 +1,59 @@
+{% assign seo = site.data.data.sidebar.seo %}
+{% assign sidebar = site.data.data.sidebar %}
+{% assign personal = sidebar.personal %}
+<head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  {% if site.chrome_mobile_color %}
+  <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
+  {% endif%}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="revisit-after" content="7 days">
+  <meta name="description" content="{{ site.description |default: "A beautiful Jekyll theme for creating resume" }}">
+  <meta name="rating" content="General">
+  <meta name="robots" content="INDEX, FOLLOW">
+  <link rel="canonical" href="{{ site.url }}">
+  <meta name="Content-Language" content="en">
+  <meta name="Coverage" content="Worldwide">
+  <meta name="author" content="{{sidebar.name}}">
+  <meta name="copyright" content="Copyright ©1996-{{ 'now' | date: "%Y" }} by {{sidebar.name}}. All Rights Reserved.">
+  {% if seo && seo.keywords %}<meta name="keywords" content="{{seo.keywords }}">{% endif %}
+  {% if personal.location %}<meta name="CONTACT_ADDR" content="{{personal.location}}">{% endif %}
+  {% if sidebar.twitter %}
+  <meta name="twitter:domain" content="{{ site.domain }}"/>
+  <meta name="twitter:site" content="{{ sidebar.twitter }}"/>
+  <meta name="twitter:title" content="{{ seo.cardtitle }}"/>
+  <meta name="twitter:description" content="{{ site.description |default: "A beautiful Jekyll theme for creating resume" }}"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="{{ site.url }}/assets/favicons/android-chrome-512x512.png"/>
+  {% endif %}
+  <meta name="subject" content="{{ seo.cardtitle }}">
+  <link itemprop="url" href="{{ site.url }}"/>
+  <meta itemprop="name" content="{{ seo.cardtitle }}"/>
+  <meta itemprop="description" content="{{ site.description |default: "A beautiful Jekyll theme for creating resume" }}"/>
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#ffc40d">
+  <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
+  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff"> 
+
+  <!-- Global CSS / Plugin CSS / Theme -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
+  <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <script type="application/ld+json">{
+      "@id": "https://www.naschenweng.info#/person", "@context": "https://schema.org", "@type": "Person", "url": "{{ site.url }}", "name": "{{ sidebar.name }}", "description": "{{ site.description }}","image": [{ "@context": "https://schema.org", "@type": "ImageObject", "url": "{{ site.url }}/assets/favicons/android-chrome-512x512.png", "name": "{{ sidebar.name }}","description": "{{ site.description }}","width": 512, "height": 512}],"sameAs": [ {% if sidebar.facebook %}"https://facebook.com/{{ sidebar.facebook }}",{% endif %} {% if sidebar.linkedin %}"https://linkedin.com/in/{{ sidebar.linkedin }}",{% endif %} {% if sidebar.twitter %}"https://twitter.com/{{ sidebar.twitter }}",{% endif %} {% if sidebar.github %}"https://github.com/{{ sidebar.github }}"{% endif %} ]}
+  </script>
+</head>
