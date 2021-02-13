@@ -3,6 +3,12 @@
 # cv-naschenweng-info-jekyll
 My public CV as hosted on https://www.naschenweng.info/cv implemented via [Jekyll](https://jekyllrb.com/).
 
+<p align="center">
+<a href="https://www.naschenweng.info/cv/"><img src="https://github.com/magicdude4eva/cv-naschenweng-info-jekyll/raw/main/cv-gerd-screengrab.png" alt="CV - Gerd Naschenweng via Jekyll"></a><br/>
+<b>CV - Gerd Naschenweng via Jekyll</b><br/>
+</p>
+
+
 ## Philosophy
 I moved to Jekyll as a hobby-project to transform my CV into an easier to manage format where I could just use simple markdown without having to "hack around" in HTML.
 
