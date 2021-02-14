@@ -1,7 +1,6 @@
 module Jekyll
 
     class EmailTag < Liquid::Tag
-  
       MAIL_TO = '&#109;&#97;&#105;&#108;&#116;&#111;&#58;'
       STYLE = 'unicode-bidi: bidi-override; direction: rtl;'
   
