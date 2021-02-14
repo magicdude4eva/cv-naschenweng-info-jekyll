@@ -17,20 +17,17 @@
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
-
+    <div class="item" style="text-align: justify">
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        <i class="fab fa-git-square" style="padding-right:5px"></i><a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
-        {{ project.title }}
+        <i class="fas fa-user-lock" style="padding-right:5px"></i>{{ project.title }}
         {% endif %}
       </span>
-
       {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
-
     </div><!--//item-->
   {% endfor %}
 

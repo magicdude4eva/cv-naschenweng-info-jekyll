@@ -2,11 +2,11 @@
 #
 
 # Site Settings
-title: Curriculum Vitae - CV - e-Commerce / Senior Java / e-Commerce Architect / Enterprise Architect / Team Leader, CTO / CIO. Located in Klagenfurt, Austria.
+title: 'Curriculum Vitae / Resume of Gerd W. Naschenweng ~ CTO / Development Manager & Teamlead: e-Commerce, Java, DevOps, Linux. Located in Klagenfurt, Austria.'
 url: 'https://www.naschenweng.info/cv'
 domain: 'naschenweng.info'
 baseurl: '/cv' #change it according to your repository name
-description: Curriculum Vitae - CV - e-Commerce / Senior Java / J2EE / Websphere Architect / Enterprise Architect / Team Leader, CTO / CIO, Austria / Österreich / Kärnten / Klagenfurt, Germany / Deutschland -- available for hire
+description: 'Curriculum Vitae / Resume of Gerd W. Naschenweng ~ Java- & JEE specialist, Techlead and Development Manager / CTO. 20 years experience in e-Commerce, Java/JEE, Enterprise Architecture. Experienced Team Leader and CTO available for hire in Austria / Österreich / Kärnten / Klagenfurt, Germany / Deutschland'
 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
@@ -24,10 +24,17 @@ sass:
 compress-site: yes
 
 encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
+
+# Compression - http://jch.penibelst.de/
+compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
   ignore:
-    envs: development
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: []
 
 # Conversion
 markdown: kramdown
@@ -47,3 +54,5 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+

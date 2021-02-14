@@ -58,7 +58,7 @@
     </div>
     <div class="details">
       <blockquote {% cycle 'class="blockquote-reverse"', '' %}>
-        <p align="justify">{{ reference.details }}</p>
+        <p style="text-align: justify">{{ reference.details }}</p>
         {% if reference.link %}
         <footer>by <a href="{{ reference.link }}" title="Reference by {{ reference.by }}">{{ reference.by }}</a></footer>
         {% else %}

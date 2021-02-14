@@ -238,12 +238,12 @@ education:
       university: Rands Afrikaans University
       time: 1997 - 1998
       details: 
-    - degree: Diploma in "Marketing Management"
+    - degree: Diploma in Marketing Management
       link: javascript:openWindow('./certificates/1996_MarketingManagement.jpg', 604, 864, false);
       university: Institute of Commercial Management
       time: 1996 - 1996
       details:
-    - degree: Diploma in "Business Enterprise Studies"
+    - degree: Diploma in Business Enterprise Studies
       link: javascript:openWindow('./certificates/1995_BusinessEnterpriseStudies.jpg', 604, 864, false);
       university: Institute of Commercial Management
       time: 1995 - 1995
@@ -707,19 +707,15 @@ publications:
     papers:
       - title: How bidorbuy reduced R&D costs and improved site performance
         link: "https://cloudinary.com/blog/how_bidorbuy_reduced_costs_and_improved_site_performance"
-        authors:  
-        conference: Migrated our proprietary thumbnail generation and storage to Cloudinary CDN using named transformations to generate thumbnails dynamically as and when needed. Images are optimised based on delivery platform (i.e. high-res retina images on Apple retina devices) and with automatic browser detection images are delivery optimised to reduce bandwidth (i.e. automatic WebP delivery).
+        summary: Migrated our proprietary thumbnail generation and storage to Cloudinary CDN using named transformations to generate thumbnails dynamically as and when needed. Images are optimised based on delivery platform (i.e. high-res retina images on Apple retina devices) and with automatic browser detection images are delivery optimised to reduce bandwidth (i.e. automatic WebP delivery).
 
       - title: "BidorBuy: A Major Part of South Africa’s Internet Boom"
         link: "https://dyn.com/blog/a-major-part-of-south-africas-internet-boom/"
-        authors: 
-        conference: Migration of bidorbuy DNS services to Dyn.com.
+        summary: Migration of bidorbuy DNS services to Dyn.com.
 
       - title: One of Europe’s Largest Java Applications is Looking for a Home
         link: "javascript:openWindow('./certificates/Pub-2004-Jun_Hardware_selection.pdf', 864, 604, false);"
-        authors: 
-        conference: "Performance & Scalability Testing to evaluate hardware infrastructure for one of Germany's largest document- & claims-processing projects"
-
+        summary: "Performance & Scalability Testing to evaluate hardware infrastructure for one of Germany's largest document- & claims-processing projects"
 
 skills:
     title: Skills &amp; Proficiency

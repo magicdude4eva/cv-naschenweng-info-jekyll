@@ -17,14 +17,17 @@
   {% endif %}
 
   {% for publication in publications.papers %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+  <div class="item" style="text-align: justify">
+    <span class="project-title">
+      {% if publication.link %}
+      <i class="fas fa-link" style="padding-right:5px"></i><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
     {% else %}
-      <li>{{ publication.title }}</li>
+    <i class="fas fa-user-lock" style="padding-right:5px"></i>{{ publication.title }}
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    </span>
+    {% if publication.summary %}
+    <span class="project-tagline"><br>{{ publication.summary }}</span>
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 </section><!--//section-->
