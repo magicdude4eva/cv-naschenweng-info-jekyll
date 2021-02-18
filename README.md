@@ -18,6 +18,9 @@ Jekyll does what you tell it to do — no more, no less. It doesn't try to outsm
 
 See: https://jekyllrb.com/philosophy
 
+## Installation
+I am running on MacOS and the install is straightforward via Homebrew as described here: [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/)
+
 ## Free-to-use
 You are free-to-use this template, provided that you keep a copyright / link to my Github project. Obviously change all the details in the "data.yml"
 
