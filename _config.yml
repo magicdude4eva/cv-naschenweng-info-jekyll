@@ -15,6 +15,10 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 # Tracker
 analytics: UA-55061128-1
 
+# Plugins
+plugins:
+  - jekyll-last-modified-at
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
