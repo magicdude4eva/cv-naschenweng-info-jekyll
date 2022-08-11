@@ -1,4 +1,4 @@
-[paypal]: https://paypal.me/GerdNaschenweng
+[![Support via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GerdNaschenweng)
 
 # cv-naschenweng-info-jekyll
 My public CV as hosted on https://www.naschenweng.info/cv implemented via [Jekyll](https://jekyllrb.com/).
