@@ -1,7 +1,6 @@
 <div class="contact-container container-block">
   <h2 class="container-block-title">Contact Details</h2>
   <ul class="list-unstyled contact-list">
-
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       {% email sidebar.email %}
@@ -29,6 +28,12 @@
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
       <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" title="Connect with {{sidebar.name}} on LinkedIn" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.xing %}
+    <li class="xing"><i class="fab fa-xing"></i>
+      <a href="https://www.xing.com/profile/{{ sidebar.xing }}" title="Connect with {{sidebar.name}} on Xing" target="_blank">{{ sidebar.xing }}</a>
     </li>
     {% endif %}
 
@@ -64,13 +69,13 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" title="Follow {{sidebar.name}} on Stack Overflow" target="_blank">{{ sidebar.stack-overflow }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" title="Follow {{sidebar.name}} on Codewars" target="_blank">{{ sidebar.codewars }}</a>
     </li>
     {% endif %}
 

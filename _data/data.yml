@@ -9,14 +9,17 @@ sidebar:
 
     # Profile information
     name: Gerd W. Naschenweng
-    tagline: Snr Java engineer, DevOps, IT-architecture, Open Source, Linux, CTO, e-commerce, SEM, SEO
+    tagline: Techlead & Development Manager, Java engineer, Agile Development, DevOps, IT-architecture, Open Source, Linux, CTO, e-commerce
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: Gerd@Naschenweng.info
     phone: '+43.6702008944'
+    timezone: Europe/Vienna
+    citizenship: Austrian
     website: naschenweng.info #do not add http://
     linkedin: gerdnaschenweng
+    xing: Gerd_Naschenweng
     github: magicdude4eva
     telegram: magicdude4eva
     gitlab:
@@ -24,12 +27,12 @@ sidebar:
     twitter: '@gerdnaschenweng'
     stack-overflow: 729725/magicdude4eva
     facebook: 'naschenweng'
-    codewars:
+    codewars: magicdude4eva
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     seo:
-      keywords: 'curriculum vitae, cv, architect, java developer, j2ee architect, banking, java beans, financial, insurance, j2ee consultant, it consultant, design patterns, db2, ecommerce, e-commerce, elasticsearch, solr, e-business, eclipse, java, j2ee, systems integration, jdbc, jaas, jsp, programmer, jboss, mvc, portal development, retail, servlets, sql, systems integration, struts, struts 1.1, swing, telcos, telecoms, telecommunications, uml, web enable, websphere, websphere application server, weblogic, xml, xsl, xslt, gerd w. naschenweng, austria, österreich, kärnten, klagenfurt, deutschland'
-      cardtitle: 'Curriculum vitae -  Gerd Naschenweng ~ Java- & JEE specialist, Techlead and Development Manager / CTO'
+      keywords: 'curriculum vitae, cv, techlead, development manager, architect, java developer, j2ee architect, banking, java beans, financial, insurance, j2ee consultant, it consultant, design patterns, ecommerce, e-commerce, elasticsearch, solr, e-business, eclipse, java, j2ee, systems integration, jdbc, jsp, jboss, mvc, portal development, retail, sql, systems integration, telcos, telecoms, telecommunications, uml, websphere, websphere application server, gerd w. naschenweng, austria, österreich, kärnten, klagenfurt, deutschland'
+      cardtitle: 'Curriculum vitae -  Gerd Naschenweng ~ Techlead and Development Manager / CTO, Java- & JEE specialist'
 
     personal:
       enabled: True   # set to False if you want personal details disabled
@@ -47,8 +50,8 @@ sidebar:
 
     interests:
       - item: Sports (Gym, Running, Hiking)
-      - item: Gaming (PS4 - RPGs)
-      - item: Gadgets, Synology, Docker
+      - item: Gaming (PS4, Xbox, RPGs)
+      - item: Gadgets, Synology, Docker, Rpi
       - item: XBMC, Movies, Homeautomation
       - item: Overcoming my fear of heights
         link: javascript:openWindow('./certificates/2005_FaceAdrenalin20050925.jpg', 864, 604, false);
@@ -60,33 +63,41 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    tagline: e-Commerce enthusiast currently rocking e-tourism as a Techlead at Alturos Destinations. Managing a team of 30+ engineers across 15 customers and in charge of development of the Peaksolution™ e-commerce platform › DevOps, Linux, Agile, PHP, Java, OpenSource
+    tagline: e-Commerce enthusiast currently rocking e-tourism as a Techlead and Development Manager at Alturos Destinations. Managing a team of 30+ engineers across 25+ customers and in charge of development of the Peaksolution™ e-commerce platform › DevOps, Linux, Agile, PHP, Java, OpenSource
     summary: |
-      Gerd Naschenweng served as the bidorbuy.co.za CTO from March 2010 until November 2018, overseeing architecture, technical design, 
-      strategy and technical product development for Africa's largest e-commerce platform. During his  tenure at bidorbuy, Gerd built up a full-stack Java 
-      development team, established a DevOps team, built a high-performant and resilient e-commerce Tomcat cluster, transitioned e-commerce search to 
-      Apache Solr, published native apps across all platforms (Windows, Android, iOS, BlackBerry) and works daily on code, Linux, SEO &amp; SEM, DevOps 
-      while managing a team of 15 highly skilled engineers.
+      20+ years in software development (Java, agile, DevOps), with both hands-on and leadership experience.
       {: style="text-align: justify;"}
       
-      He worked as a freelance Internet consultant and contractor prior to joining bidorbuy and provided IT consulting and 
-      architecture-guidance for companies such as Vodacom South Africa, First National Bank, BG Phoenics GmbH, CEDA Botswana, VHV Hannover, DBV Winterthur, 
-      Daimlyer-Chrysler/Smart and Standard Bank of South Africa.
+      With his return to Austria in late 2018 Gerd joined Alturos Destinations as Techlead and Development Manager for Peaksolution where his role involves the management of
+      the development pipeline across 6 teams with 34 engineers on-site and a remote-team located in Lviv, Ukraine. He manages all development initiatives within Peaksolution
+      for the responsive-, mobile- and self-service channels. A highly agile team of engineers delivers up to 15 software releases per week at 25+ installations across Germany,
+      Austria, Switzerland and France.
+      {: style="text-align: justify;"}
+
+      Between 2010 - 2018, Gerd served as the CTO of bidorbuy.co.za, overseeing architecture, technical design, strategy and technical product development for
+      Africa's largest e-commerce platform. During his tenure at bidorbuy Gerd built up a full-stack Java development team, established a DevOps team, built a high-performant
+      and resilient e-commerce Tomcat cluster, transitioned e-commerce search to Apache Solr, established an in-house customer support centre, implemented an ElasticSearch cluster
+      for centralised log-management via Graylog, published native apps across all platforms (Windows, Android, iOS, BlackBerry) and worked daily on code, Linux, SEO &amp; SEM,
+      DevOps while managing a team of 15 highly skilled engineers.
       {: style="text-align: justify;"}
       
-      Gerd is a proactive, experienced senior software architect and developer with a track record of delivering quality solutions quickly 
-      in the IT-, financial-, telco-, e-commerce- and government-sectors. During his 26 years in the IT industry he has had roles in executive management, 
-      development, systems analysis and project management using technologies like Apache Solr, ElasticSearch, Messaging Platforms (MQ Series, SonicMQ), 
-      Application Servers (Tomcat, IBM WebSphere, Jetty) and developed in C, Java / J2EE (JSP, Servlets, EJBs), NodeJS, PHP and Perl on a number of large 
-      and complex projects.
+      He worked as a freelance Internet consultant and contractor providing IT consulting and architecture-guidance for companies such as
+      Vodacom South Africa, First National Bank, BG Phoenics GmbH, CEDA Botswana, VHV Hannover, DBV Winterthur, Daimlyer-Chrysler/Smart and Standard Bank of South Africa.
+      {: style="text-align: justify;"}
+      
+      Gerd is a proactive, experienced technical development manager, mentor, senior software architect and developer with a track record of delivering quality solutions
+      quickly in the IT-, financial-, telco-, e-commerce- and government-sectors. During his 26 years in the IT industry he has had roles in executive management, development,
+      systems analysis and project management using technologies like Apache Solr, ElasticSearch, Messaging Platforms (MQ Series, SonicMQ), Application Servers (Tomcat,
+      IBM WebSphere, Jetty) and developed in C, Java / J2EE (JSP, Servlets, EJBs), NodeJS, PHP and Perl on a number of large and complex projects.
       {: style="text-align: justify;"}
       
       Gerd holds diplomas in Business Management and Marketing Management from the <a title="Damelin Management School - South Africa" href="https://www.damelin.co.za/" target="_blank">Damelin Management School</a> (Rosebank, South Africa) 
       as well as in Business Enterprise Studies and Marketing Management from the <a title="Institute for Commercial Management - United Kingdom" href="http://icm.education/" target="_blank">Institute of Commercial Management</a> (Bournemouth, UK).
       {: style="text-align: justify;"}
       
-      He has extensive experience in J2EE technologies ranging from the design and development of complex model-view-controller architectures to the integration of legacy mainframe architectures. He has worked with the latest development 
-      tools such as IntelliJ IDEA, Eclipse / MyEclipseIDE, IBM Websphere Application Developer, Rational Application Developer, Rational Software Architect and has performed deployments and load-balancing exercises on IBM Websphere Application Server, 
+      He has extensive experience in J2EE technologies ranging from the design and development of complex model-view-controller architectures to the integration of
+      legacy mainframe architectures. He has worked with development tools such as VSCode, PHP Storm, IntelliJ IDEA, Eclipse / MyEclipseIDE, IBM Websphere Application Developer,
+      Rational Application Developer, Rational Software Architect and has performed deployments and load-balancing exercises on IBM Websphere Application Server, 
       Tomcat and IBM-/Apache-HTTP Server using various performance monitoring tools.
       {: style="text-align: justify;"}
       
@@ -126,31 +137,29 @@ career-profile:
       {: style="text-align: justify;"}
       
       A revamped email-infrastucture using Port25 allowed bidorbuy to transmit up to 2 million transactional- and marketing emails per hour. 
-      The privately developed <a title="PowerMTA Port25 bouncehandler" href="https://github.com/magicdude4eva/port25-bouncehandler" target="_blank">Port25 bouncehandler</a> 
+      The privately developed <a title="PowerMTA Port25 bounce-handler" href="https://github.com/magicdude4eva/port25-bouncehandler" target="_blank">Port25 bouncehandler</a> 
       was deployed at bidorbuy and manages all bounce-handling.
       {: style="text-align: justify;"}
       
-      Improvements in DevOps comprised the rollout of a centralised log-management system using Graylog, Logstash and Elasticsearch as well 
-      as the deployment of a full SDLC suite using Atlassian stack (JIRA, Confluence, Bitbucket and Fisheye) with continuous integration of Android and iOS via 
-      Jenkins and application performance management via New Relic. Private cloud servers are managed via SaltStack and monitored through Zabbix.
+      Improvements in DevOps comprised the rollout of a centralised log-management system using Graylog, Logstash and Elasticsearch as well as the deployment of a
+      full SDLC suite using Atlassian stack (JIRA, Confluence, Bitbucket and Fisheye) with continuous integration of Android and iOS via Jenkins and application
+      performance management via New Relic. Private cloud servers are managed via SaltStack and monitored through Zabbix.
       {: style="text-align: justify;"}
       
       <h5 class="container-block-title">What I strive for:</h5>
-      I enjoy developing and delivering systems but also relish the human side and I get the most out of my work when I am interacting 
-      losely with project stakeholders to deliver systems that add value and give a return on investment. I have the ability to motivate and manage my team 
-      to ensure the best results.
+      I enjoy developing and delivering systems but also relish the human side and I get the most out of my work when I am interacting losely with project stakeholders
+      to deliver systems that add value and give a return on investment. I have the ability to motivate and manage my team to ensure the best results.
       {: style="text-align: justify;"}
       
-      My emphasis tends to be on creating systems based on sound technical designs. Pragmatism, using sound software engineering principles 
-      and applying software patterns are important. Quality and usability are key drivers. I am inclined to use multiple tools or environments to create 
-      systems. I have vast experience with a variety of tools, operating systems, development techniques, software products and prefer open-source solutions 
-      over commercial options.
+      My emphasis tends to be on creating systems based on sound technical designs. Pragmatism, using sound software engineering principles and applying software patterns
+      are important. Quality and usability are key drivers. I am inclined to use multiple tools or environments to create systems. I have vast experience with a variety of
+      tools, operating systems, development techniques, software products and prefer open-source solutions over commercial options.
       {: style="text-align: justify;"}
       
-      I am a professional who likes to work in small teams where I prefer a leading consultative role towards clients and colleagues. 
-      During the last 25 years of my career I was regularly involved with the management of my employees and my clients as consultant, sparring partner 
-      and critic. I appreciate honesty and clarity without resorting to social engineering or political games. I believe in reaching goals as a collective 
-      and sharing the results. When dealing with clients I exhibit a service-oriented- and coaching-approach.
+      I am a professional who likes to work in small teams where I prefer a leading consultative role towards clients and colleagues. During the last 25 years of my career
+      I was regularly involved with the management of my employees and my clients as consultant, sparring partner and critic. I appreciate honesty and clarity without
+      resorting to social engineering or political games. I believe in reaching goals as a collective and sharing the results. When dealing with clients I exhibit a
+      service-oriented- and coaching-approach.
       {: style="text-align: justify;"}
       
       **PLACEMENT OPPORTUNITIES:** I can add great value and opportunities to your organisation and can be confidently placed 
@@ -254,28 +263,28 @@ education:
       details:
 
 experiences:
-    - role: Techlead / Development Manager
+    - role: Techlead & Development Manager
       time: Dec 2018 - Present
       company: Alturos Destinations
-      companyslogan: Alturos Destinations - Alturos Destinations empowers tourist destinations to use their potential effectively and leads them into a digital future.
+      companyslogan: Alturos Destinations - Alturos Destinations empowers tourist destinations to use their potential effectively and leads them into the digital future.
       companylocation: Klagenfurt am Wörthersee (Austria)
       companylogo: ./assets/images/icon-alturos.png
       companylink: https://www.alturos.com/?lang=en
       details: |
         <u><b>Business case:</b></u>
         {: style="margin: 0px;"}
-        Alturos Destinations provides with it's Peaksolution platform e-commerce and digitalisation solutions for the tourismus industry in the 
-        Alpine regions of Europe. As the Techlead for Peaksolution my role involves the management of the development pipeline across 3 teams with
-        25 engineers on-site and a 6 member remote-team located in Lviv, Ukraine.
+        Alturos Destinations provides with it's Peaksolution platform e-commerce and digitalization solutions for the tourism industry in the 
+        Alpine regions of Europe. As the Techlead and Development Manager for Peaksolution my role involves the management of the development pipeline across 6 teams with
+        30+ engineers on-site and a member remote-team located in Ukraine.
         {: style="text-align: justify;"}
         
-        With over 20 e-commerce installations across Austria, Italy, France and Switzerland I manage all development initiatives within
-        Peaksolution for the the responsive, mobile and self-service channels. A highly agile team of engineers delivers up to 15 software
+        With 25+ e-commerce installations across Austria, Italy, Germany, France and Switzerland I manage all development initiatives within
+        Peaksolution for the responsive, mobile and self-service channels. A highly agile team of engineers delivers up to 15 software
         releases per week.
         {: style="text-align: justify;"}
 
-        The responsibilities include the technical lead and coordination of the B2B-, B2C- and Integration-team and to be the interface 
-        to project management, product management and support channels across the organisation.
+        The responsibilities include the technical lead and coordination of the B2B-, B2C-, API-, MyServices-, BI/DWH- and Integration-team and to be the interface 
+        to customers, project management, product management and support channels across the organisation.
         {: style="text-align: justify;"}
         
         <u><b>Scope of work &amp; projects:</b>
@@ -528,7 +537,7 @@ experiences:
           - Design and development of a Java Native Interface to communicate with the RSA- and Kobil-Servers for authentication.
           - Design and development of a XML-based configurable authentication framework.
           - Performance and scalability tests via Mercury Loadrunner.
-          - Production link: <a title="VDG Authentification Portal" href="https://www.vdg-portal.de">https://www.vdg-portal.de</a>
+          - Production link: <a title="VDG Authentication Portal" href="https://www.vdg-portal.de">https://www.vdg-portal.de</a>
       technologiesused: |
         ANT, C/C++, J2EE, Java JDK 1.3, JSP, IBM CICS Transaction Gateway, IBM Common Connector Framework, IBM HTTP Server, IBM Websphere Application Developer (WSAD) 4.0, IBM Websphere Application Server 4.0, HTML, Kobil SecOVID, Jacl, JavaScript, JNI, JSSE, JSP, LDAP, RSA SecurID, Servlets, TCL, Windows 2000 Server, XML
  
@@ -865,4 +874,4 @@ skills:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="https://www.naschenweng.info/" target="_blank">Gerd W. Naschenweng</a><br>
-    &copy; 2009-2021 by <a href="https://www.naschenweng.info/">naschenweng.info</a>. All Rights Reserved. <a href="https://www.naschenweng.info/privacy/" title="Your Privacy">Our Privacy Policy</a><br>Unauthorized use and/or duplication of this material without express and written permission from this sites author and/or owner is strictly prohibited.
+    &copy; 2009-2022 by <a href="https://www.naschenweng.info/">naschenweng.info</a>. All Rights Reserved. <a href="https://www.naschenweng.info/privacy/" title="Your Privacy">Our Privacy Policy</a><br>Unauthorized use and/or duplication of this material without express and written permission from this sites author and/or owner is strictly prohibited.

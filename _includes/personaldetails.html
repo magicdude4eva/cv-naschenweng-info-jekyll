@@ -5,7 +5,7 @@
     <h2 class="container-block-title">Personal Details</h2>
     <ul class="list-unstyled contact-list">
       {% if personal.dob %}<li title="Date of birth"><i class="fas fa-birthday-cake"></i>{{personal.dob}}</li>{% endif %}
-      {% if personal.residency %}<li title="Nationality"><i class="fas fa-globe-europe"></i>{{personal.residency}}</li>{% endif %}
+      {% if personal.residency %}<li title="Nationality"><i class="fas fa-passport"></i>{{personal.residency}}</li>{% endif %}
       {% if personal.workpermits %}<li title="Workpermits for {{personal.workpermits}}"><i class="fas fa-plane-departure"></i>{{personal.workpermits}}</li>{% endif %}
       {% if personal.marriagestatus %}<li title="Marital status - {{personal.marriagestatus}}"><i class="fas fa-gem"></i>{{personal.marriagestatus}}</li>{% endif %}
       {% if personal.location %}<li title="Address"><i class="fas fa-map-marked-alt"></i>{{personal.location}}</li>{% endif %}
