@@ -1,0 +1,135 @@
+repo_name: magicdude4eva/cv-naschenweng-info-jekyll
+report_id: e2b418bf68af889978778474b3ba402b
+repo_type: Public
+timestamp: '2023-11-09T17:19:27+00:00'
+requested_by: magicdude4eva
+provider: github
+branch: main
+detected_tools_count: 10
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: magicdude4eva
+  last_updated_on: 2021-02-13 19:32:04.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: assets/plugins/bootstrap/.travis.yml
+  last_updated_by: magicdude4eva
+  last_updated_on: 2021-02-13 19:32:04.000000000 Z
+- name: Jekyll
+  description: Blog-aware, static site generator in Ruby
+  website_url: http://jekyllrb.com/
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: magicdude4eva
+  last_updated_on: 2021-02-24 06:56:04.000000000 Z
+- name: tzinfo
+  description: TZInfo provides access to time zone data and allows times to be converted
+    using time zone rules
+  package_url: https://rubygems.org/tzinfo
+  version: '1.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18981/default_eb163f66039a75cd168fad8a88ccdb68b82bccff.png
+  detection_source_url: Gemfile
+  detection_source: Gemfile
+  last_updated_by: magicdude4eva
+  last_updated_on: 2021-02-13 19:32:04.000000000 Z
+  vulnerabilities:
+  - name: TZInfo relative path traversal vulnerability allows loading of arbitrary
+      files
+    cve_id: CVE-2022-31163
+    cve_url: https://github.com/advisories/GHSA-5cm2-9h8c-rvfx
+    detected_date: Jul 22
+    severity: high
+    first_patched: 1.2.10
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source: Gemfile
+  last_updated_by: magicdude4eva
+  last_updated_on: 2021-02-13 19:32:04.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: magicdude4eva
+  last_updated_on: 2022-08-11 09:22:21.000000000 Z
