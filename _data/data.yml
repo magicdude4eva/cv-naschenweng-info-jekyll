@@ -13,20 +13,20 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: Gerd@Naschenweng.info
+    email: Gerd@Naschenweng.eu
     phone: '+43.6702008944'
     timezone: Europe/Vienna
     citizenship: Austrian
-    website: naschenweng.info #do not add http://
+    website: naschenweng.eu #do not add http://
     linkedin: gerdnaschenweng
     xing: Gerd_Naschenweng
     github: magicdude4eva
     telegram: magicdude4eva
     gitlab:
     bitbucket:
-    twitter: '@gerdnaschenweng'
+    twitter: 
     stack-overflow: 729725/magicdude4eva
-    facebook: 'naschenweng'
+    facebook: 
     codewars: magicdude4eva
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -56,7 +56,7 @@ sidebar:
       - item: Overcoming my fear of heights
         link: javascript:openWindow('./certificates/2005_FaceAdrenalin20050925.jpg', 864, 604, false);
       - item: Consumer activism
-        link: https://www.naschenweng.info/category/news/life-in-rsa/consumerism/
+        link: https://www.naschenweng.eu/category/news/life-in-rsa/consumerism/
       - item: Cryptocurrency & Blockchain
         link: https://github.com/magicdude4eva/docker-gunbot
       - item: Security & white-hat hacking
@@ -168,8 +168,8 @@ career-profile:
       terminal or IDE.<br><br>Preferred location of employment: <b>Austria - Kärnten / Klagenfurt</b>.
       {: style="text-align: justify;"}
       
-      <a title="Personality Assessment of Gerd Naschenweng - available for work in Austria / Klagenfurt" href="https://www.naschenweng.info/cv/GWN-PersonalityAssessment.pdf"><i class="far fa-file-pdf"></i> <b>Download Gerd Naschenweng's Personality Assessment</b></a>
-      <br><a title="Karriere.at iPersonic test von Gerd Naschenweng - verfügbar in Österreich / Klagenfurt" href="https://www.naschenweng.info/cv/karriere_ipersonic_deutsch.pdf"><i class="far fa-file-pdf"></i> <b>Karriere.at iPersonic Test (Deutsch)</b></a>
+      <a title="Personality Assessment of Gerd Naschenweng - available for work in Austria / Klagenfurt" href="https://www.naschenweng.eu/cv/Certificates/2019-GWN-PersonalityAssessment.pdf"><i class="far fa-file-pdf"></i> <b>Download Gerd Naschenweng's Personality Assessment</b></a>
+      <br><a title="Karriere.at iPersonic test von Gerd Naschenweng - verfügbar in Österreich / Klagenfurt" href="https://www.naschenweng.eu/cv/Certificates/2019_karriere_ipersonic_deutsch.pdf"><i class="far fa-file-pdf"></i> <b>Karriere.at iPersonic Test (Deutsch)</b></a>
       {: style="text-align: justify;"}
 
 
@@ -871,7 +871,3 @@ skills:
             level: 100%
           - name: 3rd party analytics (Webtrekk, Omniture / Adobe Analytics / Kissmetrics)
             level: 90%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="https://www.naschenweng.info/" target="_blank">Gerd W. Naschenweng</a><br>
-    &copy; 2009-2022 by <a href="https://www.naschenweng.info/">naschenweng.info</a>. All Rights Reserved. <a href="https://www.naschenweng.info/privacy/" title="Your Privacy">Our Privacy Policy</a><br>Unauthorized use and/or duplication of this material without express and written permission from this sites author and/or owner is strictly prohibited.

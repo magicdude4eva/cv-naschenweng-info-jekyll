@@ -1,10 +1,10 @@
 [![Support via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GerdNaschenweng)
 
 # cv-naschenweng-info-jekyll
-My public CV as hosted on https://www.naschenweng.info/cv implemented via [Jekyll](https://jekyllrb.com/).
+My public CV as hosted on https://www.naschenweng.eu/cv implemented via [Jekyll](https://jekyllrb.com/).
 
 <p align="center">
-<a href="https://www.naschenweng.info/cv/"><img src="https://github.com/magicdude4eva/cv-naschenweng-info-jekyll/raw/main/cv-gerd-screengrab.png" alt="CV - Gerd Naschenweng via Jekyll"></a><br/>
+<a href="https://www.naschenweng.eu/cv/"><img src="https://github.com/magicdude4eva/cv-naschenweng-info-jekyll/raw/main/cv-gerd-screengrab.png" alt="CV - Gerd Naschenweng via Jekyll"></a><br/>
 <b>CV - Gerd Naschenweng via Jekyll</b><br/>
 </p>
 

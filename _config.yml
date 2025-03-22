@@ -3,8 +3,8 @@
 
 # Site Settings
 title: 'Curriculum Vitae / Resume of Gerd W. Naschenweng ~ CTO / Development Manager & Teamlead: e-Commerce, Java, DevOps, Linux. Located in Klagenfurt, Austria.'
-url: 'https://www.naschenweng.info/cv'
-domain: 'naschenweng.info'
+url: 'https://www.naschenweng.eu/cv'
+domain: 'naschenweng.eu'
 baseurl: '/cv' #change it according to your repository name
 description: 'Curriculum Vitae / Resume of Gerd W. Naschenweng ~ Java- & JEE specialist, Techlead and Development Manager / CTO. 20 years experience in e-Commerce, Java/JEE, Enterprise Architecture. Experienced Team Leader and CTO available for hire in Austria / Österreich / Kärnten / Klagenfurt, Germany / Deutschland'
 
