@@ -9,6 +9,12 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.2.0"
 
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
