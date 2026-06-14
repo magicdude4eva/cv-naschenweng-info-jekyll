@@ -1,35 +1,36 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
+{% assign projects = site.data.data.projects %} {% if projects %}
 <section class="section projects-section">
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ projects.title }}
+    </h2>
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ projects.title }}
-  </h2>
-
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for project in projects.assignments %}
+    {% if projects.intro %}
+    <div class="intro">
+        <p>{{ projects.intro }}</p>
+    </div>
+    <!--//intro-->
+    {% endif %} {% for project in projects.assignments %}
     <div class="item" style="text-align: justify">
-      <span class="project-title">
-        {% if project.link %}
-        <i class="fab fa-git-square" style="padding-right:5px"></i><a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        <i class="fas fa-user-lock" style="padding-right:5px"></i>{{ project.title }}
+        <span class="project-title">
+            {% if project.link %}
+            <i class="fab fa-git-square" style="padding-right: 5px"></i
+            ><a href="{{ project.link }}" target="_blank"
+                >{{ project.title }}</a
+            >
+            {% else %}
+            <i class="fas fa-user-lock" style="padding-right: 5px"></i>{{
+            project.title }} {% endif %}
+        </span>
+        {% if project.tagline %} -
+        <span class="project-tagline">{{ project.tagline }}</span>
         {% endif %}
-      </span>
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-    </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
+    </div>
+    <!--//item-->
+    {% endfor %}
+</section>
+<!--//section-->
 {% endif %}

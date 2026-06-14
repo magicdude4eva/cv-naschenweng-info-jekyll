@@ -1,0 +1,3 @@
+---
+BUNDLE_PATH: "~/.local/share/gem/ruby/3.4.0"
+BUNDLE_BUILD__SASSC: "--with-opt-dir=/usr/local/opt/libffi"

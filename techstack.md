@@ -1,7 +1,7 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
-magicdude4eva/cv-naschenweng-info-jekyll is built on the following main stack:
+magicdude4eva/cv-naschenweng-eu-jekyll is built on the following main stack:
 
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Jekyll](http://jekyllrb.com/) – Static Site Generators
@@ -14,7 +14,7 @@ Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
-magicdude4eva/cv-naschenweng-info-jekyll is built on the following main stack:
+magicdude4eva/cv-naschenweng-eu-jekyll is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg' alt='Jekyll'/> [Jekyll](http://jekyllrb.com/) – Static Site Generators
@@ -28,7 +28,7 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [magicdude4eva/cv-naschenweng-info-jekyll](https://github.com/magicdude4eva/cv-naschenweng-info-jekyll)![](https://img.stackshare.io/public_badge.svg "public")
+![](https://img.stackshare.io/repo.svg "repo") [magicdude4eva/cv-naschenweng-eu-jekyll](https://github.com/magicdude4eva/cv-naschenweng-eu-jekyll)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |11<br/>Tools used|01/11/24 <br/>Report generated|
 |------|------|
